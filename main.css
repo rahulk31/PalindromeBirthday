@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;800&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #DE6262, #FFB88C);
+    height: 100vh;
+}
+
+h1 {
+    margin: 3rem auto;
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+input {
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-size: 20px;
+    background: linear-gradient(180deg, #FFB88C, #fffffe);
+}
+
+.btn {
+    background: linear-gradient(70deg, #95db63, #FFB88C);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    margin: 2rem auto;
+    display: block;
+    cursor: pointer;
+}
+
+.message {
+    background-color: #FFB88C;
+    max-width: 450px;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 5px;
+    text-align: center;
+}
